@@ -1,0 +1,12 @@
+# Never commit environment variables (contains secret API key)
+.env
+
+# Dependencies (these get reinstalled via npm install, no need to upload)
+node_modules/
+
+# Build output
+build/
+dist/
+
+# OS/editor junk files
+.DS_Store
