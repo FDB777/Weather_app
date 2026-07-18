@@ -8,7 +8,7 @@ import './App.css';
 
 // This points to our own Node backend, NOT OpenWeatherMap directly.
 // When you deploy later, you'll change this to your live backend URL.
-const BACKEND_URL = 'https://weather-app-xxxx.onrender.com';
+const BACKEND_URL = 'https://weather-app-z3xi.onrender.com';
 
 function App() {
   const [city, setCity] = useState('');       // what the user is typing
